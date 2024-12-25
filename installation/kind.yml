@@ -5,7 +5,6 @@ networking:
   ipFamily: dual
 nodes:
 - role: control-plane
-<<<<<<< HEAD
   image: kindest/node:v1.32.0
 - role: worker
   image: kindest/node:v1.32.0
@@ -13,12 +12,3 @@ nodes:
   image: kindest/node:v1.32.0
 - role: worker
   image: kindest/node:v1.32.0
-=======
-  image: kindest/node:v1.29.0
-- role: worker
-  image: kindest/node:v1.29.0
-- role: worker
-  image: kindest/node:v1.29.0
-- role: worker
-  image: kindest/node:v1.29.0
->>>>>>> 0b36032f3ef5ee8a22c8c232dedc0c025880246c
