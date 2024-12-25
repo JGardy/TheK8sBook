@@ -11,7 +11,7 @@ I've renamed the master branch to **main**.
 
 Run the following commands if you have an older copy of the repo on your local machine and don't want to lose changes...
 
-```
+```Shell
 git branch -m master main
 git fetch origin
 git branch -u origin/main main
